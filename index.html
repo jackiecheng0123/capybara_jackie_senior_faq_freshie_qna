@@ -359,7 +359,7 @@
     </p>
 
     <p>
-        Welcome to USM, Freshies! 🦫🎓
+        <strong>Welcome to USM, Freshies! 🦫🎓</strong>
     </p>
 </div>
         </div>
@@ -3005,54 +3005,127 @@
 /* =====================================================
                1. OPTIONS: CO-CURRICULAR COURSES
             ===================================================== */
-            {
+{
                 category: "Academics",
-                icon: "&#9917;", // ⚽
+                icon: "&#9917;",
                 question: "What Co-Curricular Courses (Ko-K) can I choose? (课外活动有哪些？)",
                 answer: `
-                    <p>Co-Curricular Courses are grouped by Core and are available as either <strong>Packaged</strong> (must complete all levels) or <strong>Non-Packaged</strong> courses. The minimum passing grade is Grade C.</p>
+                    <p style="margin-bottom: 15px; font-size: 13.5px;">Co-Curricular Courses are grouped by Core and are available as either <strong>Packaged</strong> (must complete all levels) or <strong>Non-Packaged</strong> courses. The minimum passing grade is <strong>Grade C</strong>.</p>
 
                     <!-- Volunteerism -->
                     <div style="background: var(--background); padding: 15px; border-radius: 12px; border: 1px solid var(--border); margin-bottom: 15px;">
-                        <strong style="color: var(--usm-blue); font-size: 14px;">&#129490;&#8205;&#9794;&#65039; Core of Volunteerism (6 - 10 Credits, Packaged)</strong>
-                        <ul style="margin-top: 8px; padding-left: 20px; font-size: 12.5px; color: var(--text);">
-                            <li style="margin-bottom: 4px;"><strong>PALAPES Army:</strong> WTD103/3, WTD203/3, WTD304/4</li>
-                            <li style="margin-bottom: 4px;"><strong>PALAPES Navy:</strong> WTL103/3, WTL203/3, WTL304/4</li>
-                            <li style="margin-bottom: 4px;"><strong>PALAPES Air Force:</strong> WTU103/3, WTU203/3, WTU304/4</li>
-                            <li style="margin-bottom: 4px;"><strong>SUKSIS (Police Volunteers):</strong> WPD101/2, WPD201/2, WPD301/2</li>
-                            <li style="margin-bottom: 4px;"><strong>SISPA (Civil Defence):</strong> WPA103/2, WPA203/2, WPA303/2</li>
-                            <li style="margin-bottom: 4px;"><strong>St John Ambulance:</strong> WJA102/2, WJA202/2, WJA302/2</li>
+                        <strong style="color: var(--usm-blue); font-size: 14px;">&#129490;&#8205;&#9794;&#65039; Core of Volunteerism</strong>
+                        <span style="display: block; font-size: 12px; color: var(--text-light); margin-top: 2px;">(6 - 10 Credits, Packaged)</span>
+                        <ul style="margin-top: 10px; padding-left: 20px; font-size: 13px; color: var(--text); line-height: 1.6;">
+                            <li><strong>PALAPES Army:</strong> WTD103/3, WTD203/3, WTD304/4</li>
+                            <li><strong>PALAPES Navy:</strong> WTL103/3, WTL203/3, WTL304/4</li>
+                            <li><strong>PALAPES Air Force:</strong> WTU103/3, WTU203/3, WTU304/4</li>
+                            <li><strong>SUKSIS (Police Volunteers):</strong> WPD101/2, WPD201/2, WPD301/2</li>
+                            <li><strong>SISPA (Civil Defence):</strong> WPA103/2, WPA203/2, WPA303/2</li>
+                            <li><strong>St John Ambulance:</strong> WJA102/2, WJA202/2, WJA302/2</li>
                             <li><strong>Red Crescent:</strong> WBM102/2, WBM202/2, WBM302/2</li>
                         </ul>
                     </div>
 
                     <!-- Sports -->
                     <div style="background: var(--background); padding: 15px; border-radius: 12px; border: 1px solid var(--border); margin-bottom: 15px;">
-                        <strong style="color: var(--usm-blue); font-size: 14px;">&#127936; Core of Sports (1 - 3 Credits)</strong>
-                        <ul style="margin-top: 8px; padding-left: 20px; font-size: 12.5px; color: var(--text);">
-                            <li style="margin-bottom: 4px;"><strong>Packaged (3 Semesters):</strong> Karate (WSC108, 208, 308) | Taekwondo (WSC115, 215, 315)</li>
-                            <li><strong>Non-Packaged (1 Credit):</strong> Volleyball (WSC105), Archery (WSC110), Table Tennis (WSC111), Swimming (WSC112), Aerobics (WSC113), Squash (WSC114), Tennis (WSC116), Badminton (WSC119), Sepak Takraw (WSC124), Futsal (WSC125), Netball (WSC126), Event Management (WSC127, 227), Petanque (WSC128), Orienteering (WSC130), Woodball (WSC131).</li>
-                        </ul>
+                        <strong style="color: var(--usm-blue); font-size: 14px;">&#127936; Core of Sports</strong>
+                        <span style="display: block; font-size: 12px; color: var(--text-light); margin-top: 2px; margin-bottom: 12px;">(1 - 3 Credits)</span>
+
+                        <div style="margin-bottom: 12px;">
+                            <strong style="font-size: 12.5px; color: var(--text);">Packaged (3 Semesters):</strong>
+                            <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px;">
+                                <span style="background: #f3f4f6; padding: 4px 10px; border-radius: 6px; font-size: 12px; border: 1px solid var(--border);">Karate (WSC108, 208, 308)</span>
+                                <span style="background: #f3f4f6; padding: 4px 10px; border-radius: 6px; font-size: 12px; border: 1px solid var(--border);">Taekwondo (WSC115, 215, 315)</span>
+                            </div>
+                        </div>
+
+                        <div>
+                            <strong style="font-size: 12.5px; color: var(--text);">Non-Packaged (1 Credit):</strong>
+                            <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px;">
+                                <span style="background: #f3f4f6; padding: 4px 10px; border-radius: 6px; font-size: 12px; border: 1px solid var(--border);">Volleyball (WSC105)</span>
+                                <span style="background: #f3f4f6; padding: 4px 10px; border-radius: 6px; font-size: 12px; border: 1px solid var(--border);">Archery (WSC110)</span>
+                                <span style="background: #f3f4f6; padding: 4px 10px; border-radius: 6px; font-size: 12px; border: 1px solid var(--border);">Table Tennis (WSC111)</span>
+                                <span style="background: #f3f4f6; padding: 4px 10px; border-radius: 6px; font-size: 12px; border: 1px solid var(--border);">Swimming (WSC112)</span>
+                                <span style="background: #f3f4f6; padding: 4px 10px; border-radius: 6px; font-size: 12px; border: 1px solid var(--border);">Aerobics (WSC113)</span>
+                                <span style="background: #f3f4f6; padding: 4px 10px; border-radius: 6px; font-size: 12px; border: 1px solid var(--border);">Squash (WSC114)</span>
+                                <span style="background: #f3f4f6; padding: 4px 10px; border-radius: 6px; font-size: 12px; border: 1px solid var(--border);">Tennis (WSC116)</span>
+                                <span style="background: #f3f4f6; padding: 4px 10px; border-radius: 6px; font-size: 12px; border: 1px solid var(--border);">Badminton (WSC119)</span>
+                                <span style="background: #f3f4f6; padding: 4px 10px; border-radius: 6px; font-size: 12px; border: 1px solid var(--border);">Sepak Takraw (WSC124)</span>
+                                <span style="background: #f3f4f6; padding: 4px 10px; border-radius: 6px; font-size: 12px; border: 1px solid var(--border);">Futsal (WSC125)</span>
+                                <span style="background: #f3f4f6; padding: 4px 10px; border-radius: 6px; font-size: 12px; border: 1px solid var(--border);">Netball (WSC126)</span>
+                                <span style="background: #f3f4f6; padding: 4px 10px; border-radius: 6px; font-size: 12px; border: 1px solid var(--border);">Event Management (WSC127, 227)</span>
+                                <span style="background: #f3f4f6; padding: 4px 10px; border-radius: 6px; font-size: 12px; border: 1px solid var(--border);">Petanque (WSC128)</span>
+                                <span style="background: #f3f4f6; padding: 4px 10px; border-radius: 6px; font-size: 12px; border: 1px solid var(--border);">Orienteering (WSC130)</span>
+                                <span style="background: #f3f4f6; padding: 4px 10px; border-radius: 6px; font-size: 12px; border: 1px solid var(--border);">Woodball (WSC131)</span>
+                            </div>
+                        </div>
                     </div>
 
                     <!-- Culture -->
                     <div style="background: var(--background); padding: 15px; border-radius: 12px; border: 1px solid var(--border); margin-bottom: 15px;">
-                        <strong style="color: var(--usm-blue); font-size: 14px;">&#127917; Core of Culture (1 - 6 Credits)</strong>
-                        <ul style="margin-top: 8px; padding-left: 20px; font-size: 12.5px; color: var(--text);">
-                            <li style="margin-bottom: 4px;"><strong>Packaged (3 Semesters):</strong> Jazz Band (WCC108, 208, 308) | Seni Silat Cekak (WCC123, 223, 323)</li>
-                            <li><strong>Non-Packaged (1 Credit):</strong> Gamelan (WCC105), Guitar (WCC107), Choir (WCC109), Modern Dance (WCC115), Traditional Dance (WCC116), Modern Theatre (WCC117), Shadow Play (WCC118), Musical Kompang (WCC124).</li>
-                        </ul>
+                        <strong style="color: var(--usm-blue); font-size: 14px;">&#127917; Core of Culture</strong>
+                        <span style="display: block; font-size: 12px; color: var(--text-light); margin-top: 2px; margin-bottom: 12px;">(1 - 6 Credits)</span>
+
+                        <div style="margin-bottom: 12px;">
+                            <strong style="font-size: 12.5px; color: var(--text);">Packaged (3 Semesters):</strong>
+                            <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px;">
+                                <span style="background: #f3f4f6; padding: 4px 10px; border-radius: 6px; font-size: 12px; border: 1px solid var(--border);">Jazz Band (WCC108, 208, 308)</span>
+                                <span style="background: #f3f4f6; padding: 4px 10px; border-radius: 6px; font-size: 12px; border: 1px solid var(--border);">Seni Silat Cekak (WCC123, 223, 323)</span>
+                            </div>
+                        </div>
+
+                        <div>
+                            <strong style="font-size: 12.5px; color: var(--text);">Non-Packaged (1 Credit):</strong>
+                            <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px;">
+                                <span style="background: #f3f4f6; padding: 4px 10px; border-radius: 6px; font-size: 12px; border: 1px solid var(--border);">Gamelan (WCC105)</span>
+                                <span style="background: #f3f4f6; padding: 4px 10px; border-radius: 6px; font-size: 12px; border: 1px solid var(--border);">Guitar (WCC107)</span>
+                                <span style="background: #f3f4f6; padding: 4px 10px; border-radius: 6px; font-size: 12px; border: 1px solid var(--border);">Choir (WCC109)</span>
+                                <span style="background: #f3f4f6; padding: 4px 10px; border-radius: 6px; font-size: 12px; border: 1px solid var(--border);">Modern Dance (WCC115)</span>
+                                <span style="background: #f3f4f6; padding: 4px 10px; border-radius: 6px; font-size: 12px; border: 1px solid var(--border);">Traditional Dance (WCC116)</span>
+                                <span style="background: #f3f4f6; padding: 4px 10px; border-radius: 6px; font-size: 12px; border: 1px solid var(--border);">Modern Theatre (WCC117)</span>
+                                <span style="background: #f3f4f6; padding: 4px 10px; border-radius: 6px; font-size: 12px; border: 1px solid var(--border);">Shadow Play (WCC118)</span>
+                                <span style="background: #f3f4f6; padding: 4px 10px; border-radius: 6px; font-size: 12px; border: 1px solid var(--border);">Musical Kompang (WCC124)</span>
+                            </div>
+                        </div>
                     </div>
 
                     <!-- Innovation, Community, Speaking, Sustainability -->
                     <div style="background: var(--background); padding: 15px; border-radius: 12px; border: 1px solid var(--border);">
                         <strong style="color: var(--usm-blue); font-size: 14px;">&#128161; Other Co-Curricular Cores</strong>
-                        <ul style="margin-top: 8px; padding-left: 20px; font-size: 12.5px; color: var(--text);">
-                            <li style="margin-bottom: 4px;"><strong>Innovation & Initiative (1 Credit):</strong> Painting (WCC103), Handcrafting (WCC110), Canting Batik (WCC120), Calligraphic Art (WCC121), Culinary (WCC122), Kite Art (WCC125), Embroidery (WCC128), SLR Photography (WCC130, 131), Ceramic (WCC132), Decoupage (WCC133).</li>
-                            <li style="margin-bottom: 4px;"><strong>Innovation & Initiative (2 Credits):</strong> Climate Change (WLF103), Digital Financial (WLF104), Grit in You (WLF105), Makers@USM (WMU102), AI Literacy (WMU112), Data Science (WMU122).</li>
-                            <li style="margin-bottom: 4px;"><strong>Community Service:</strong> WKM102/WKM202 (Packaged), WSK102 (Volunteerism Science).</li>
-                            <li style="margin-bottom: 4px;"><strong>Public Speaking (2 Credits):</strong> Malay (WEC102), English (WEC103E).</li>
-                            <li><strong>Sustainability (2 Credits):</strong> WSU101.</li>
+
+                        <div style="margin-top: 12px; margin-bottom: 12px;">
+                            <strong style="font-size: 12.5px; color: var(--text);">Innovation & Initiative (1 Credit):</strong>
+                            <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px;">
+                                <span style="background: #f3f4f6; padding: 4px 10px; border-radius: 6px; font-size: 12px; border: 1px solid var(--border);">Painting (WCC103)</span>
+                                <span style="background: #f3f4f6; padding: 4px 10px; border-radius: 6px; font-size: 12px; border: 1px solid var(--border);">Handcrafting (WCC110)</span>
+                                <span style="background: #f3f4f6; padding: 4px 10px; border-radius: 6px; font-size: 12px; border: 1px solid var(--border);">Canting Batik (WCC120)</span>
+                                <span style="background: #f3f4f6; padding: 4px 10px; border-radius: 6px; font-size: 12px; border: 1px solid var(--border);">Calligraphic Art (WCC121)</span>
+                                <span style="background: #f3f4f6; padding: 4px 10px; border-radius: 6px; font-size: 12px; border: 1px solid var(--border);">Culinary (WCC122)</span>
+                                <span style="background: #f3f4f6; padding: 4px 10px; border-radius: 6px; font-size: 12px; border: 1px solid var(--border);">Kite Art (WCC125)</span>
+                                <span style="background: #f3f4f6; padding: 4px 10px; border-radius: 6px; font-size: 12px; border: 1px solid var(--border);">Embroidery (WCC128)</span>
+                                <span style="background: #f3f4f6; padding: 4px 10px; border-radius: 6px; font-size: 12px; border: 1px solid var(--border);">SLR Photography (WCC130, 131)</span>
+                                <span style="background: #f3f4f6; padding: 4px 10px; border-radius: 6px; font-size: 12px; border: 1px solid var(--border);">Ceramic (WCC132)</span>
+                                <span style="background: #f3f4f6; padding: 4px 10px; border-radius: 6px; font-size: 12px; border: 1px solid var(--border);">Decoupage (WCC133)</span>
+                            </div>
+                        </div>
+
+                        <div style="margin-bottom: 12px;">
+                            <strong style="font-size: 12.5px; color: var(--text);">Innovation & Initiative (2 Credits):</strong>
+                            <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px;">
+                                <span style="background: #f3f4f6; padding: 4px 10px; border-radius: 6px; font-size: 12px; border: 1px solid var(--border);">Climate Change (WLF103)</span>
+                                <span style="background: #f3f4f6; padding: 4px 10px; border-radius: 6px; font-size: 12px; border: 1px solid var(--border);">Digital Financial (WLF104)</span>
+                                <span style="background: #f3f4f6; padding: 4px 10px; border-radius: 6px; font-size: 12px; border: 1px solid var(--border);">Grit in You (WLF105)</span>
+                                <span style="background: #f3f4f6; padding: 4px 10px; border-radius: 6px; font-size: 12px; border: 1px solid var(--border);">Makers@USM (WMU102)</span>
+                                <span style="background: #f3f4f6; padding: 4px 10px; border-radius: 6px; font-size: 12px; border: 1px solid var(--border);">AI Literacy (WMU112)</span>
+                                <span style="background: #f3f4f6; padding: 4px 10px; border-radius: 6px; font-size: 12px; border: 1px solid var(--border);">Data Science (WMU122)</span>
+                            </div>
+                        </div>
+
+                        <ul style="margin-top: 12px; padding-left: 20px; font-size: 13px; color: var(--text); line-height: 1.6;">
+                            <li style="margin-bottom: 6px;"><strong>Community Service:</strong> WKM102/WKM202 (Packaged), WSK102 (Volunteerism Science).</li>
+                            <li style="margin-bottom: 6px;"><strong>Public Speaking (2 Credits):</strong> Malay (WEC102), English (WEC103E).</li>
+                            <li><strong>Sustainability: Issues, Challenges & Prospects (2 Credits):</strong> WSU101.</li>
                         </ul>
                     </div>
                 `,
